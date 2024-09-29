@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #0056b3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navbar ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Basic Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Image Slider Container */
+.slider {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    width: 300%; /* Assuming 3 images */
+}
+
+.slide {
+    width: 100%;
+    flex-shrink: 0;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* CSS Animation for Automatic Slide */
+@keyframes slide-animation {
+    0% { transform: translateX(0%); }
+    33% { transform: translateX(0%); }
+    38% { transform: translateX(-100%); }
+    66% { transform: translateX(-100%); }
+    71% { transform: translateX(-200%); }
+    100% { transform: translateX(-200%); }
+}
+
+/* Apply Animation */
+.slides {
+    animation: slide-animation 12s infinite;
+}
+
+/* Optional: Fade Effect */
+.fade {
+    animation: fadeEffect 1.5s;
+}
+
+@keyframes fadeEffect {
+    from { opacity: 0.4; }
+    to { opacity: 1; }
+}
+
+/* Announcements Section */
+.announcements {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+.announcements h2 {
+    margin-bottom: 10px;
+}
+
+.announcements ul {
+    list-style: none;
+}
+
+.announcements ul li {
+    margin: 5px 0;
+}
+
+.announcements ul li a {
+    text-decoration: none;
+    color: #0056b3;
+}
+
+.announcements ul li a:hover {
+    text-decoration: underline;
+}
+
+/* News and Events Section */
+.news-events {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+.news, .events {
+    width: 45%;
+}
+
+.news-events h2 {
+    width: 100%;
+}
+
+.news-events ul {
+    list-style: none;
+}
+
+.news-events ul li {
+    margin: 5px 0;
+}
+
+.news-events ul li a {
+    text-decoration: none;
+    color: #0056b3;
+}
+
+.news-events ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Campus Life Section */
+.campus-life {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+.campus-life img {
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #0056b3;
+    color: white;
+    margin-top: 20px;
+}
+
